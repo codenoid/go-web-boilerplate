@@ -16,6 +16,7 @@ xdg-open http://localhost:3000
 
 ### Todo
 
+- User Settings
 - User Management
 - Page Generator
 - reCaptcha

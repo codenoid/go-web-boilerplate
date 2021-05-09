@@ -5,6 +5,15 @@
 
 > WIP
 
+```sh
+# make sure MongoDB & Redis are running, please check web-base/config.env
+cd web-base
+go run .
+xdg-open http://localhost:3000
+# username: admin
+# password: @admin1234
+```
+
 ### Todo
 
 - User Management

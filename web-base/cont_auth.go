@@ -62,7 +62,7 @@ func mainMiddleware(c *gin.Context) {
 	guid, err := c.Cookie("guid")
 	if err != nil {
 		newGUID := uuid.New().String()
-		if newGUID != "" {
+		if newGUID == "" {
 			c.String(500, "Internal Server Error")
 			c.Abort()
 			return
